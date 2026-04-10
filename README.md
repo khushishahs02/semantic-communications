@@ -22,4 +22,6 @@ For seventy-five years, communication systems have optimized bit-level transmiss
 ## Implications
 Our findings highlight the theoretical and empirical advantages of a semantic-aware transmission framework. The proven spectrum savings and reduced transmit power requirements provide a strong foundation for future semantic-aware frameworks such as those proposed for 6G networks.
 
---Done as a part of group Project of the Course CT216 
+--Done as a part of group Project of the Course CT216 , Intro to Communication Systems
+
+Course 

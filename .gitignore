@@ -1,0 +1,16 @@
+# MATLAB scripts to ignore
+matlab/generate_figures.m
+matlab/phase2_add_noise.m
+matlab/phase2_ber_task_comparison.m
+matlab/phase2_noise_robustness.m
+matlab/phase2_snr_variation.m
+
+# Temporary/Backups
+matlab/*.asv
+*.asv
+*.zip
+semantics.zip
+
+# Python temporary files
+__pycache__/
+*.pyc

@@ -1,21 +1,9 @@
-%% MASTER PLOT SCRIPT
-% Generates all figures for IEEE paper
-% Run this after completing all Phase 1 & 2 experiments
-
 clear; clc; close all;
-
-fprintf('=== GENERATING ALL FIGURES ===\n\n');
-
-%% Load All Data
 phase1_baseline = readtable('../data/results/phase1_baseline.csv');
 phase1_comparison = readtable('../data/results/phase1_comparison.csv');
 phase2_noise = readtable('../data/results/phase2_noise.csv');
-
-%% FIGURE 1: Entropy Distribution
 fprintf('Generating Figure 1: Entropy Distribution...\n');
-
 fig1 = figure('Position', [100, 100, 800, 350]);
-
 % Subplot A: Character Entropy
 subplot(1,2,1);
 histogram(phase1_baseline.char_entropy, 12, ...
@@ -46,7 +34,7 @@ grid on; box on;
 saveas(fig1, '../paper/figures/fig1_entropy_distribution.png');
 fprintf('✓ Saved fig1_entropy_distribution.png\n');
 
-%% FIGURE 2: Storage Comparison
+% FIGURE 2: Storage Comparison
 fprintf('Generating Figure 2: Storage Comparison...\n');
 
 fig2 = figure('Position', [100, 100, 800, 500]);

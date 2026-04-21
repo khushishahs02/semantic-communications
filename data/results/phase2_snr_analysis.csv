@@ -1,0 +1,8 @@
+SNR_dB,avg_BER,natural_accuracy,semantic_accuracy,natural_degradation_rate,semantic_degradation_rate
+0,0.0787087105782828,0.02,0,0,0
+5,0.00594111832376386,0.58,1,0.112,0.2
+10,0,0.9,1,0.064,-0
+15,0,0.9,1,-0,-0
+20,0,0.9,1,-0,-0
+25,0,0.9,1,-0,-0
+30,0,0.9,1,-0,-0

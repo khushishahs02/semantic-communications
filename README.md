@@ -1,11 +1,5 @@
 # Semantic Communication Vs Natural Language Transmission
 
-This repository contains the research work, MATLAB simulations, and the technical paper for our project comparing Semantic Language transmission against Natural Language transmission. 
-
-## Authors
-- **Khushi Shah**
-- **Tanish Sanghavi**
-
 ## Overview
 For seventy-five years, communication systems have optimized bit-level transmission accuracy, treating messages as symbol sequences without semantic awareness. We challenge this paradigm by demonstrating that meaning-centric transmission—semantic communication via knowledge graph representations—achieves superior compression and noise resilience compared to traditional natural language transmission.
 
